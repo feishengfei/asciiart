@@ -1,6 +1,5 @@
 #include "pkmn_gen2.hpp"
 
-#include <iostream>
 #include <map>
 #include <stdexcept>
 

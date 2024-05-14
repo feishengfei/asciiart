@@ -57,7 +57,7 @@ void Svg::open(std::istream & input, const Args & args)
 
     rsvg_handle_set_dpi(svg_handle, 75.0);
     gdouble width{0.0}, height{0.0};
-#if LIBRSVG_MAJOR_VERSION > 2 || LIBRSVG_MINOR_VERSION >= 52
+#if LIBRSVG_MAJOR_VERSION > 2 || (LIBRSVG_MAJOR_VERSION == 2 && LIBRSVG_MINOR_VERSION >= 52)
     rsvg_handle_get_intrinsic_size_in_pixels(svg_handle, &width, &height);
 
 #else
@@ -77,7 +77,7 @@ void Svg::open(std::istream & input, const Args & args)
     if(cairo_status(cr) != CAIRO_STATUS_SUCCESS)
         throw std::runtime_error {"Error creating SVG cairo object"};
 
-#if LIBRSVG_MAJOR_VERSION > 2 || LIBRSVG_MINOR_VERSION >= 52
+#if LIBRSVG_MAJOR_VERSION > 2 || (LIBRSVG_MAJOR_VERSION == 2 && LIBRSVG_MINOR_VERSION >= 52)
     auto viewport = RsvgRectangle {.x=0.0, .y=0.0, .width=width, .height=height};
     if(GError * err = nullptr; !rsvg_handle_render_document(svg_handle, cr, &viewport, &err))
     {
