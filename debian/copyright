@@ -1,0 +1,144 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: asciiart
+Upstream-Contact: <preferred name and address to reach the upstream project>
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     .gitignore
+           CMakeLists.txt
+           README.md
+           animate.cpp
+           animate.hpp
+           args.cpp
+           args.hpp
+           codecs/ani.cpp
+           codecs/ani.hpp
+           codecs/avif.cpp
+           codecs/avif.hpp
+           codecs/binio.hpp
+           codecs/bitstream.hpp
+           codecs/bmp.cpp
+           codecs/bmp.hpp
+           codecs/bmp_common.cpp
+           codecs/bmp_common.hpp
+           codecs/bpg.cpp
+           codecs/bpg.hpp
+           codecs/exif.cpp
+           codecs/exif.hpp
+           codecs/flif.cpp
+           codecs/flif.hpp
+           codecs/gif.cpp
+           codecs/gif.hpp
+           codecs/heif.cpp
+           codecs/heif.hpp
+           codecs/ico.cpp
+           codecs/ico.hpp
+           codecs/image.cpp
+           codecs/image.hpp
+           codecs/jp2.cpp
+           codecs/jp2.hpp
+           codecs/jp2_color.hpp
+           codecs/jpeg.cpp
+           codecs/jpeg.hpp
+           codecs/jxl.cpp
+           codecs/jxl.hpp
+           codecs/mcmap.cpp
+           codecs/mcmap.hpp
+           codecs/mng.cpp
+           codecs/mng.hpp
+           codecs/motologo.cpp
+           codecs/motologo.hpp
+           codecs/openexr.cpp
+           codecs/openexr.hpp
+           codecs/pcx.cpp
+           codecs/pcx.hpp
+           codecs/pkmn_gen1.cpp
+           codecs/pkmn_gen1.hpp
+           codecs/pkmn_gen2.cpp
+           codecs/pkmn_gen2.hpp
+           codecs/png.cpp
+           codecs/png.hpp
+           codecs/pnm.cpp
+           codecs/pnm.hpp
+           codecs/sif.cpp
+           codecs/sif.hpp
+           codecs/srf.cpp
+           codecs/srf.hpp
+           codecs/sub_args.cpp
+           codecs/sub_args.hpp
+           codecs/svg.cpp
+           codecs/svg.hpp
+           codecs/tga.cpp
+           codecs/tga.hpp
+           codecs/tiff.cpp
+           codecs/tiff.hpp
+           codecs/webp.cpp
+           codecs/webp.hpp
+           codecs/xpm.cpp
+           codecs/xpm.hpp
+           color.hpp
+           config.h.in
+           cxxopts_wrapper.hpp
+           display.cpp
+           display.hpp
+           font.cpp
+           font.hpp
+           main.cpp
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     codecs/jp2_color.cpp
+Copyright: 2001-2003 David Janssens
+           2002-2003 Yannick Verschueren
+           2002-2014 Professor Benoit Macq
+           2002-2014 Universite catholique de Louvain (UCL), Belgium
+           2003-2007 Francois-Olivier Devaux
+           2003-2014 Antonin Descampe
+           2005 Herve Drolon, FreeImage Team
+License:   BSD-2-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS `AS IS'
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+ LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
+
+#----------------------------------------------------------------------------
+# License file: LICENSE
+ Copyright (C) 2020 Matthew Chandler
+ .
+ Permission is hereby granted, free of charge, to any person obtaining a copy of
+ this software and associated documentation files (the "Software"), to deal in
+ the Software without restriction, including without limitation the rights to
+ use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+ the Software, and to permit persons to whom the Software is furnished to do so,
+ subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
